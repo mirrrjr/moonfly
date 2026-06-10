@@ -1,118 +1,64 @@
 # Moonfly Theme for Zed
 
-A dark theme for Zed inspired by the original Moonfly color scheme by bluz71. It features an ultra-dark background, low-contrast UI surfaces, vibrant syntax highlighting, and carefully balanced accent colors designed for long coding sessions.
-
-## Preview
-
-| Element | Color |
-|----------|----------|
-| Background | `#0e0e0e` |
-| Foreground | `#D5D8DA` |
-| Keywords | `#cf87e8` |
-| Functions | `#80a0ff` |
-| Strings | `#8cc85f` |
-| Types | `#74b2ff` |
-| Numbers / Constants | `#ae81ff` |
-| Operators | `#85dc85` |
-| Comments | `#323437` (italic) |
-| Variables | `#bdbdbd` |
-| HTML / JSX Tags | `#ff5d5d` |
-| Attributes | `#cf87e8` |
-| Special Variables | `#ff5189` |
-| Links | `#79dac8` |
-| Errors | `#F43E5C` |
-| Warnings | `#27D797` |
+A dark theme for Zed featuring an ultra-dark background, vibrant syntax highlighting, and a carefully balanced color palette optimized for long coding sessions.
 
 ## Features
 
-- Ultra-dark `#0e0e0e` background
-- Low-contrast UI elements
-- Italic comments
-- Vibrant syntax highlighting
-- Consistent terminal palette
-- Optimized for PHP, Laravel, JavaScript, TypeScript, Vue, React, Rust, Go, and other modern languages
-- Moonfly-inspired color balance with Zed-native styling
+* Deep black background (`#080808`)
+* Low visual noise
+* Italic comments
+* Consistent syntax highlighting
+* Carefully balanced ANSI terminal colors
+* Optimized for PHP, Laravel, JavaScript, TypeScript, Vue, React, Rust, Go, and other modern languages
+
+## Preview
+
+| Element    | Color     |
+| ---------- | --------- |
+| Background | `#080808` |
+| Foreground | `#bdbdbd` |
+| Keywords   | `#cf87e8` |
+| Functions  | `#80a0ff` |
+| Strings    | `#8cc85f` |
+| Types      | `#74b2ff` |
+| Numbers    | `#ae81ff` |
+| Operators  | `#85dc85` |
+| Comments   | `#323437` |
+| Variables  | `#bdbdbd` |
+| Tags       | `#ff5d5d` |
+| Links      | `#79dac8` |
 
 ## Installation
 
-### Manual Installation
+### Manual
 
-1. Create the themes directory if it doesn't exist:
+```sh
+mkdir -p ~/.config/zed/themes
+cp moonfly.json ~/.config/zed/themes/
+```
 
-   ```sh
-   mkdir -p ~/.config/zed/themes
-   ```
+Then select the theme in your Zed settings:
 
-2. Copy the theme file:
-
-   ```sh
-   cp moonfly.json ~/.config/zed/themes/
-   ```
-
-3. Open Zed settings and select the theme:
-
-   ```json
-   {
-     "theme": "Moonfly"
-   }
-   ```
-
-4. Reload Zed.
-
-## UI Colors
-
-| Component | Color |
-|------------|------------|
-| Editor Background | `#0e0e0e` |
-| Surface Background | `#0e0e0e` |
-| Elevated Surface | `#0E0E0E` |
-| Active Line | `#080808` |
-| Selection / Match | `#a42aeb3d` |
-| Panel Background | `#0E0E0E` |
-| Element Background | `#2E303E` |
-| Focus Border | `#1A1C23` |
-| Accent | `#E95378` |
-
-## Syntax Palette
-
-| Token | Color |
-|--------|--------|
-| Keyword | `#cf87e8` |
-| Function | `#80a0ff` |
-| Type | `#74b2ff` |
-| String | `#8cc85f` |
-| Number | `#ae81ff` |
-| Constant | `#ae81ff` |
-| Variable | `#bdbdbd` |
-| Parameter | `#bdbdbd` |
-| Property | `#bdbdbd` |
-| Operator | `#85dc85` |
-| Punctuation | `#85dc85` |
-| Tag | `#ff5d5d` |
-| Attribute | `#cf87e8` |
-| Comment | `#323437` |
-| Documentation Comment | `#323437` |
-| Link | `#79dac8` |
+```json
+{
+  "theme": "Moonfly"
+}
+```
 
 ## Terminal Palette
 
-| Color | Normal | Bright |
-|--------|--------|--------|
-| Black | `#06060C` | `#141414` |
-| Red | `#E95678` | `#EC6A88` |
-| Green | `#29D398` | `#3FDAA4` |
-| Yellow | `#FAB795` | `#FBC3A7` |
-| Blue | `#26BBD9` | `#3FC4DE` |
+| Color   | Normal    | Bright    |
+| ------- | --------- | --------- |
+| Black   | `#323437` | `#949494` |
+| Red     | `#ff5d5d` | `#ff5189` |
+| Green   | `#8cc85f` | `#36c692` |
+| Yellow  | `#e3c78a` | `#c6c684` |
+| Blue    | `#80a0ff` | `#74b2ff` |
 | Magenta | `#EE64AC` | `#F075B5` |
-| Cyan | `#59E1E3` | `#6BE4E6` |
-| White | `#D5D8DA` | `#D5D8DA` |
-
-<!--## Screenshot
-
-Add screenshots here after publishing the theme.-->
+| Cyan    | `#79dac8` | `#85dc85` |
+| White   | `#c6c6c6` | `#e4e4e4` |
 
 ## Credits
 
-- Original Moonfly colors by bluz71
-- Adapted and customized for Zed
-- Built using the Zed Theme Schema v0.2.0
+* Original Moonfly color palette by [bluz71](https://github.com/bluz71/vim-moonfly-colors)
+* Ported and adapted for Zed
