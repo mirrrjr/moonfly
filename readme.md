@@ -1,4 +1,4 @@
-# Moonfly Theme for Zed
+![Moonfly Theme Preview](https://raw.githubusercontent.com/bluz71/misc-binaries/master/headings/moonfly.png)
 
 A dark theme for Zed featuring an ultra-dark background, vibrant syntax highlighting, and a carefully balanced color palette optimized for long coding sessions.
 
