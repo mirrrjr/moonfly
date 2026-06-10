@@ -2,6 +2,8 @@
 
 A dark theme for Zed featuring an ultra-dark background, vibrant syntax highlighting, and a carefully balanced color palette optimized for long coding sessions.
 
+![Banner](./screeshot/banner.png)
+
 ## Features
 
 * Deep black background (`#080808`)
