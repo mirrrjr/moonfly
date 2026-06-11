@@ -2,6 +2,8 @@
 
 A dark theme for Zed featuring an ultra-dark background, vibrant syntax highlighting, and a carefully balanced color palette optimized for long coding sessions.
 
+## Screenshots
+
 ![Banner](https://raw.githubusercontent.com/mirrrjr/zed-moonfly-theme/refs/heads/master/screenshot/banner.png)
 
 ## Features
