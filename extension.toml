@@ -1,7 +1,7 @@
 id = "moonfly-theme"
 name = "Moonfly"
-version = "0.1.0"
+version = "1.0.0"
 schema_version = 1
-authors = ["mirrrjr <mirrrrjr@gmail.com>"]
+authors = ["mirrrjr"]
 description = "Moonfly theme for Zed"
-repository = "https://github.com/mirrrjr/zed-moonfly-theme"
+repository = "https://github.com/mirrrjr/moonfly"
