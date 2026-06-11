@@ -4,7 +4,7 @@ A dark theme for Zed featuring an ultra-dark background, vibrant syntax highligh
 
 ## Screenshots
 
-![Banner](https://raw.githubusercontent.com/mirrrjr/zed-moonfly-theme/refs/heads/master/screenshot/banner.png)
+<img width="1366" height="736" alt="Image" src="https://github.com/user-attachments/assets/e1d9d5b3-4515-463e-998d-bb4b7b6933e1" />
 
 ## Features
 
